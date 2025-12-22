@@ -30,7 +30,7 @@ Files to be Created for Proper Functioning of Storage System: 
 3. `GoldEngulfing_logs.json` - Log file
 
 So the paths would be/must be: 
-C:\Users\Dell\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Files\GoldEngulfing_setups.json C:\Users\Dell\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Files\GoldEngulfing_backups.json C:\Users\Dell\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Files\GoldEngulfing_logs.json
+C:\Users\Dell\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Files\GoldEngulfing_MagicSetups.json C:\Users\Dell\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Files\GoldEngulfing_MagicBackups.json C:\Users\Dell\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Files\GoldEngulfing_MagicLogs.json
 
 
 The purpose of the File Storage System is to keep track of the states of trade setups:
@@ -58,3 +58,4 @@ or in another scernario it know that some orders from "Engulf_12122025-1000-S" 
 And that is why i chose the Modular Approach because all this cannot be done possibly/cleanly in a single file.....
 
 that is all, i think you have all you need to know. i shared every little detail with you... hope you know what to make of it and how would you use it in a modular way.
+
